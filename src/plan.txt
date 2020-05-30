@@ -1,0 +1,41 @@
+RULES:
+
+52 cards
+13 cards per type
+    4 types
+
+create an array of cards
+divide in 2 randomly
+
+user vs computer
+user:
+    click button
+
+cards show one at a time
+    User first or computer first?
+    first card faces up
+        if equal
+        second card faces down --> third card faces up
+            if equal -->...continue until no more cards
+        if not equal --> winner = higher number --> takes both deck
+            start over
+
+finished when no more cards left on either side --> Final winner: person with the most cards
+
+COMPONENTS:
+    Main panel?
+    Cards
+    User
+    Computer
+    App
+        button to divide
+        button to pick card
+        choice: user first or comp first
+        button to start
+        button to restart/reset --> reshuffle
+
+
+    advance:
+        reshuffle in the middle of game
+
+
