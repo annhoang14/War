@@ -1,0 +1,98 @@
+.LoggedInScreen {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    background: rgb(44,37,165);
+    background: linear-gradient(180deg, rgba(44,37,165,1) 0%, rgba(13,13,91,1) 42%, rgba(122,146,190,0.9830531699984681) 100%);
+  }
+  
+  h3{
+    margin-top: 0px;
+  }
+  
+  .header{
+    display: flex;
+    flex-direction:row;
+    justify-content: center;
+    align-items: center; 
+  }
+  
+  .Name{
+      font-size: 50px;
+      margin-left: 100px;
+      font-family: 'Press Start 2P', cursive;
+      color: white;
+  }
+
+  .welcomeName{
+      font-size: 30px;
+      border: solid white;
+     
+  }
+
+  .LogOutB{
+      float: right;
+      margin-right: 10px;
+      margin-top: 5px;
+  }
+  
+  .subheader{
+      color: white;
+      justify-content: center;
+      text-align: center;
+  }
+  .gameBody{
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    height: 78vh;
+    width: 100vw;
+    
+  }
+  .UserPlay .CompPlay{
+    display: flex;
+    flex-direction: column;
+    flex: 5;
+    justify-content: center;
+    align-items: center;
+    background-color: lightpink;
+    opacity: 0.80;
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+    margin-left: 2vw;
+    margin-right: 2vw;
+    border-radius: 25px;
+    outline: lightpink dotted 5px;
+    outline-offset: 1.5vh;
+  }
+  
+  .GamePlay{
+    display: flex;
+    flex-direction: column;
+    flex: 3;
+    align-items: center;
+    justify-content: center;
+  } 
+    
+  ul{
+    list-style: none;
+  }
+
+  .userWinnerMessage {
+      border: solid yellow
+  }
+
+  .playAgain{
+      margin-bottom: 20px;
+  }
+
+  .leaderBoard{
+    margin-top: 20px;
+    max-height: 300px;
+    overflow-y: auto;
+  }
+
+  #sad{
+      width: 20%;
+      height: 20%
+  }

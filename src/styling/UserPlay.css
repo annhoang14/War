@@ -1,0 +1,5 @@
+.threeCards{
+    display: flex;
+    flex-direction: row;
+    width: 400px;
+}
