@@ -12,7 +12,7 @@ export default class UserPlay extends Component {
     render() {
         return (
             <div>
-                <h2>User's Cards</h2>
+                <h2>{this.props.userName}'s Cards</h2>
                 {(this.props.userPlayDeck.length !== 0) ?
                     (this.props.userPlayDeck.length === 1) ? //if not in war
                         <div>

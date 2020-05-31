@@ -382,7 +382,7 @@ export default class LoggedIn extends Component {
                                         <div className="compWinnerMessage" style={{ color: red[700] }}>
                                             <h1>Computer Won!</h1>
                                             <h2>Too bad...Good luck next time!</h2>
-                                            <h3>User's High Score: {`${this.state.highScore} out of ${this.state.rounds} rounds`}</h3>
+                                            <h3>{firebase.getCurrentUsername()}'s High Score: {`${this.state.highScore} out of ${this.state.rounds} rounds`}</h3>
                                             <img id="sad" src={require('../images/sad.gif')} alt="Fireworks" />
                                         </div>
                                     }
@@ -399,6 +399,7 @@ export default class LoggedIn extends Component {
                                 <div className="gameBody">
                                     <div className="UserPlay">
                                         <UserPlay
+                                            userName={firebase.getCurrentUsername()}
                                             userPlayDeck={this.state.userPlayDeck}
                                             userDeck={this.state.userDeck}
                                         />
