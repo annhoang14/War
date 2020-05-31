@@ -10,9 +10,16 @@ import "../styling/UserPlay.css";
 export default class UserPlay extends Component {
     //the user side of the game
     render() {
+        let username;
+        if (this.props.userName) {
+            username = this.props.userName;
+        }
+        else {
+            username = "User"
+        }
         return (
             <div>
-                <h2>{this.props.userName}'s Cards</h2>
+                <h2>{username}'s Cards</h2>
                 {(this.props.userPlayDeck.length !== 0) ?
                     (this.props.userPlayDeck.length === 1) ? //if not in war
                         <div>
