@@ -371,7 +371,7 @@ export default class LoggedIn extends Component {
                                         </div>
 
                                         <div className="GamePlay">
-                                            <h2 style={{ color: purple[500], fontSize: 45 }}>Round <br /> {this.state.rounds + 1}</h2>
+                                            <h2 className="rounds" style={{ color: purple[500], fontSize: 45 }}>Round <br /> {this.state.rounds + 1}</h2>
                                             <GamePlay
                                                 toggleStartGame={this.toggleStartGame}
                                                 isWar={this.state.isWar}

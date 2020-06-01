@@ -12,7 +12,7 @@ export default class Clubs extends Component {
             <Card className="spadeDesign" variant="outlined">
                 <CardContent>
                     <div className="cardImg">
-                        <img id="cardImg" src={require('../images/clubs.png')} alt="Spade" />
+                        <img id="cardImg" src={require('../images/clubs.png')} alt="Clubs" />
                         <h2 id="cardVal">{this.props.num}</h2>
                     </div>
                 </CardContent>
