@@ -1,5 +1,5 @@
 .threeCards{
     display: flex;
     flex-direction: row;
-    width: 400px;
+    max-width: 30vw;
 }

@@ -22,7 +22,7 @@ export default class UserPlay extends Component {
                 <h2>{username}'s Cards</h2>
                 {(this.props.userPlayDeck.length !== 0) ?
                     (this.props.userPlayDeck.length === 1) ? //if not in war
-                        <div>
+                        <div className="playingCard">
                             {this.props.userPlayDeck.map((card, index) => {
                                 if (index % 2 === 1) {
                                     return (

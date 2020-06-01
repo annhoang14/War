@@ -12,7 +12,7 @@ export default class Hearts extends Component {
             <Card className="spadeDesign" variant="outlined">
                 <CardContent>
                     <div className="cardImg">
-                        <img id="cardImg" src={require('../images/heart.png')} alt="Spade" />
+                        <img id="cardImg" src={require('../images/heart.png')} alt="Heart" />
                         <h2 id="cardVal">{this.props.num}</h2>
                     </div>
                 </CardContent>
